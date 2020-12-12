@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="miestilo.css" rel="stylesheet">
+    <title>Formulario</title>
+  </head>
+
+  <body>
+    <section>
+      <form name="formulario" action="pagina.php" method="GET">
+        <p><label>Nombre:<input type="text" name="nombre" id="nombre" maxlength="6"></label></p>
+        <p><label>Edad: <input type="number" name="edad" max="20" step="2" min="4" value="18"></label></p>
+        <p><label>Correo electrónico: <input type="email" name="email"></label></p>
+        <p><label>Especifique el número de hijos:</label></p>
+        <p><label>Sin hijos <input type="radio" name="hijos" value="0"></label></p>
+        <p><label>1 hijo: <input type="radio" name="hijos" value="1"></label></p>
+        <p><label>2 hijos: <input type="radio" name="hijos" value="2"></label></p>
+        <p><label>Teléfono: <input type="tel" name="telefono"></label></p>
+        <p><label>URL Página personal: <input type="url" name="pagina-personal"></label></p>
+        <p><label>Contraseña:<input type="password" name="password"></label></p>
+        <p><input type="range" name="rango"></p>
+        <p><label><input type="submit" value="Enviar información"></label></p>
+        <P>
+          <input type=range min=1 max=11 name=tap>
+        </p>
+        <p>
+          <form oninput=output.value=slider.value>
+            <input id=slider type=range min=1 max=5 value=5>
+            <output id=output></output>
+
+        </p>
+        
+      </form>
+    </section>
+  </body>
+</html>
