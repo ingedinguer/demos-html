@@ -1,2 +1,2 @@
 # demos-html
-Demos de las clases
+Carpetas con los contenidos HTML de algunas prácticas
